@@ -1,0 +1,23 @@
+html,
+body {
+    height: 100%;
+    // z-index: 1;
+}
+
+body {
+    @extend %hel-700;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 10px;
+}
