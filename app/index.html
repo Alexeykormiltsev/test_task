@@ -1,57 +1,73 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Тестовое задание</title>
+    <title>Travlog</title>
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
     <header class="header">
       <div class="container">
         <div class="header__top">
-          <a href="#" class="header__logo">
-            <img src="images/logo.svg" alt="logo img" />
+          <a href="#" class="logo__link">
+            <img src="images/logo.svg" alt="logo img" class="logo" />
           </a>
           <nav class="header__nav nav">
             <ul class="nav__list">
               <li class="nav__item">
-                <a href="#" class="nav__link">О нас</a>
+                <a href="#" class="nav__link nav__link-active"> Home </a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">Услуги</a>
+                <a href="#" class="nav__link"> Discover </a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">Работы</a>
+                <a href="#" class="nav__link"> Special Deals </a>
               </li>
               <li class="nav__item">
-                <button class="nav__btn toggle-menu">Контакты</button>
+                <a href="#" class="nav__link"> Contact </a>
               </li>
             </ul>
           </nav>
-        </div>
-        <div class="header__content">
-          <h1 class="header__title">
-            Разработка вашего<br />
-            <span> веб-сайта </span> <br />
-            с нуля и не только
-          </h1>
-          <p class="header__text">
-            Создадим сайт который будет <span> стоять особняком </span>
-            среди других сайтов
-          </p>
+          <div class="header__registration">
+            <button>Log In</button>
+            <button class="reg">Sign Up</button>
+          </div>
         </div>
       </div>
+      <div class="header__center">
+        <div class="container">
+          <div class="header__content">
+            <div class="header__left">
+              <button class="header__topbtn">Explore the world!</button>
+              <h1 class="header__title">
+                Travel
+                <span
+                  >top <br />
+                  destination <br
+                /></span>
+                of the world
+              </h1>
+              <p class="header__text">
+                We always make our customer happy by providing <br> as many choices as
+                possible
+              </p>
+              <div class="header__btn-box btn-box">
+                <button class="btn-box__left-btn">Get Started</button>
+                <button class="btn-box__right-btn">Watch Demo</button>
+              </div>
+            </div>
+            <div class="header__img">
+              <img src="images/header-img.png" alt="">
+            </div>
+          </div>
+         
+        </div>
+       
+      </div>
+        
     </header>
-    <div class="social-menu">
-      <a href="#"><img src="images/telegram.png" alt="telegram" /></a>
-      <a href="#"><img src="images/insta.png" alt="insta" /></a>
-      <a href="#"><img src="images/whatsapp.png" alt="whatsapp" /></a>
-      <a href="#"><img src="images/mail.png" alt="mail" /></a>
-      <a href="#"><img src="images/tel.png" alt="tel" /></a>
-      <a class="close" href="#"><img src="images/close.png" alt="close" /></a>
-    </div>
 
     <script src="js/main.min.js"></script>
   </body>
