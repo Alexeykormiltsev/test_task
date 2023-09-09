@@ -122,20 +122,149 @@
         display: block;
         transition: all .8s;
     }
-
-    
 }
-.link-icon--active {
-        .minus {
-            display: block;
-        }
 
-        .plus {
-            display: none;
-        }
+.link-icon--active {
+    .minus {
+        display: block;
     }
 
- 
+    .plus {
+        display: none;
+    }
+}
+
+.blog {
+    padding: 70px 0 28px;
+
+    &__title {
+        text-align: center;
+        @extend %int-500;
+        font-size: 64px;
+        line-height: 64px;
+        margin-bottom: 90px;
+    }
+
+    &__items {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__img {
+        border-radius: 10px;
+        margin-bottom: 18px;
+    }
+
+    &__item-title {
+        margin-bottom: 18px;
+        @extend %int-700;
+        font-size: 26px;
+        line-height: 24px;
+    }
+
+    &__item-text {
+        @extend %pop-500;
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+
+.case {
+    padding: 100px 0 28px;
+
+    &__title {
+        text-align: center;
+        @extend %int-500;
+        font-size: 64px;
+        line-height: 64px;
+        margin-bottom: 120px;
+    }
+
+    &__items {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__img {
+        border-radius: 10px;
+        margin-bottom: 18px;
+    }
+
+    &__item-title {
+        margin-bottom: 18px;
+        @extend %int-700;
+        font-size: 26px;
+        line-height: 24px;
+    }
+
+    &__item-text {
+        @extend %pop-500;
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+
+.footer {
+    padding: 24px 0;
+    background: #D2C1C1;
+
+    &__wrapper {
+        display: flex;
+        gap: 256px;
+    }
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__logo {
+        @extend %int-700;
+        color: #000;
+        font-size: 36px;
+        line-height: normal;
+        margin-bottom: 66px;
+    }
+
+    &__tel {
+        @extend %int-500;
+        color: #000;
+        font-size: 64px;
+        line-height: 24px;
+        margin-bottom: 38px;
+    }
+
+    &__contacts {
+        display: flex;
+        gap: 35px;
+    }
+
+    &__contacts-item,
+    &__contacts-link {
+        @extend %int-400;
+        color: #000;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    &__right-title {
+        @extend %int-700;
+        color: #000;
+        font-size: 36px;
+        line-height: normal;
+        margin-bottom: 8px;
+    }
+&__right{
+ margin-top: 32px;
+}
+    &__right-link {
+        @extend %int-300;
+        font-size: 32px;
+        line-height: 45.5px;
+        color: #000;
+    }
+}
+
 
 
 
