@@ -5,10 +5,11 @@ body {
 }
 
 body {
-    @extend %int-400;
-    font-size: 18px;
-    line-height: 160%;
-    color: rgba(25, 24, 37, 0.50);
+    @extend %int-700;
+    font-size: 26px;
+    line-height: 24px;
+    color: #fff ;
+    background: #1E1E1E;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -16,7 +17,7 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 1120px;
+    max-width: 1760px;
     padding: 0 10px;
 }
 
